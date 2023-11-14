@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etBirdName"
+        android:layout_width="375dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter bird name" />
+
+    <EditText
+        android:id="@+id/etObservationDetails"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="64dp"
+        android:hint="Enter observation details" />
+
+    <Button
+        android:id="@+id/btnSaveEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgSelected"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="13dp"
+        android:text="Save Entry" />
+
+    <Button
+        android:id="@+id/btnChooseImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="110dp"
+        android:text="Choose Image" />
+
+    <ImageView
+        android:id="@+id/imgSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnChooseImage"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp" />
+
+
+</RelativeLayout>
